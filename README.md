@@ -9,9 +9,9 @@ Outros tipos de Verificaçoes: [CHECK-HOST](https://check-host.net)
 
 # FUNCIONALIDADES:
 
-[1] Verify IP RAGES!
-[2] Https Checker!
-[3] UDP Checker!
-[4] TCP Checker!
-[5] Ping Host!
+[1] Verify IP RAGES!<br>
+[2] Https Checker!<br>
+[3] UDP Checker!<br>
+[4] TCP Checker!<br>
+[5] Ping Host!<br>
 [6] Dns Host Checker!
