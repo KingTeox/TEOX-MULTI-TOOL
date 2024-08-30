@@ -1,4 +1,4 @@
-# IP-RAGES-VERIFY
+# TEOX MULTI TOOL
 
 Esse é um verificador de rages de ips(blocos de ips)!<br>
 Tambem possui outras funcionalidades!
@@ -15,3 +15,4 @@ Outros tipos de Verificaçoes: [CHECK-HOST](https://check-host.net)
 [4] TCP Checker!<br>
 [5] Ping Host!<br>
 [6] Dns Host Checker!
+more..
