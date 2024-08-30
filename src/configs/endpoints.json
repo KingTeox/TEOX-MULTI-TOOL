@@ -1,0 +1,5 @@
+{
+    "IP-CHECKER": "http://ip-api.com/batch?fields=32763711&lang=pt-BR",
+    "STATUS-CHECKER": "https://check-host.net/check-",
+    "STATUS-NODES": "https://check-host.net/nodes/hosts"
+}

@@ -1,3 +1,11 @@
+# Any 
+
+compiled
+out
+debug
+package-lock.json
+yarn.lock
+
 # Logs
 logs
 *.log

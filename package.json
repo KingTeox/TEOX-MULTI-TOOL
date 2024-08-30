@@ -1,0 +1,23 @@
+{
+  "name": "teox-ip-checker",
+  "version": "1.5.0",
+  "description": "ip checker using secret server hehe",
+  "main": "compiled/index.js",
+  "scripts": {
+    "start": "cls && node --no-warnings compiled/index.js && pause",
+    "build": "tsc",
+    "dev": "cls && tsc && cls && npm run start"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "teox.kill",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "exiftool-vendored": "^28.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "rages": [ "200.103" ], 
+    "Infos": [
+        {
+            "RAGE": "185.245.180.*",
+            "MESSAGE": "HOSTINGER BR"
+        },
+        {
+            "RAGE": "193.233.[232-233].*",
+            "MESSAGE": "Aeza International LTD"
+        },
+        {
+            "RAGE": "76.76.*.*",
+            "MESSAGE": "MULTIPLES: Metalink, JAB Wireless, NetSPI, Amazon.com(Vercel), CONTROLD"
+        },
+        {
+            "RAGE": "147.185.*.*",
+            "MESSAGE": "MULTIPLES: CONTROLD"
+        },
+        {
+            "RAGE": "20.226.*.*",
+            "MESSAGE": "AZURE, Microsoft Corporation"
+        },
+        {
+            "RAGE": "104.[0-15].*.*",
+            "MESSAGE": "AT&T Services, Inc. / Private Customer - AT&T Internet Services"
+        },
+        {
+            "RAGE": "104.[16-31].*.*",
+            "ORG": "CloudFlare: Canada, India, Brasil, Alemanha."
+        },
+        {
+            "RAGE": "132.226.38.*", 
+            "ORG": "Oracle Corporation | AKAMAI = ORACLE XD"
+        },
+        {
+            "Curitiba": "104.28.207.[233-239]",
+            "ORG": "CloudFlare"
+        }
+    ]
+}
