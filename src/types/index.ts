@@ -1,6 +1,7 @@
 
 import Logger from "../services/logger";
 import Utils from "../services/utils";
+import endpoints from "../configs/endpoints.json";
 
 export type typeDDD = {
     status: string,
@@ -25,13 +26,33 @@ export type typeDDD = {
     query: string
 };
 
+export type responseNodes = {
+    host: string, 
+    ip: string, 
+    asn: string, 
+    location: Array<string>
+};
+
+export type nodes = {
+    host: string, 
+    ip: string, 
+    asn: string, 
+    location: { 
+        country: string, 
+        city: string
+    }
+};
+
 export type systemLoad = {
     warnings: {
         chalk: boolean;
     }
 }
 
+export type checkerHostMethods = ["tcp", "http", "result", "dns", "ping"];
+
 export type config = {
+    endpoints: typeof endpoints;
     utils: Utils;
     console: Logger;
 };

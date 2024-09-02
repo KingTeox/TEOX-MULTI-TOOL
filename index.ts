@@ -7,6 +7,8 @@ import serviceImage from "./src/services/checker-image";
 import servicePentest from "./src/services/checker-pentest";
 import serviceRage from "./src/services/checker-rage";
 
+import endpoints from "./src/configs/endpoints.json";
+
 const serviceLogger = new Logger();
 const serviceUtils = new Utils();
 
@@ -28,12 +30,12 @@ class loadSystem {
     async start() {
         try {
 
-            const checkerHost = new serviceHost({ console: serviceLogger, utils: serviceUtils });
-            const checkerImage = new serviceImage({ console: serviceLogger, utils: serviceUtils });
-            const checkerPentest = new servicePentest({ console: serviceLogger, utils: serviceUtils });
-            const checkerRage = new serviceRage({ console: serviceLogger, utils: serviceUtils });
+            const checkerHost = new serviceHost({ console: serviceLogger, utils: serviceUtils, endpoints }, true);
+            const checkerImage = new serviceImage({ console: serviceLogger, utils: serviceUtils, endpoints });
+            const checkerPentest = new servicePentest({ console: serviceLogger, utils: serviceUtils, endpoints });
+            const checkerRage = new serviceRage({ console: serviceLogger, utils: serviceUtils, endpoints });
 
-            checkerHost.start();
+            checkerHost.test();
             checkerImage.version();
             checkerPentest.start();
             checkerRage.start();

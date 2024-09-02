@@ -13,19 +13,19 @@ export class Logger {
     };
 
     public log(text: string): void {
-        return console.log(this.format(text));
+        return console.log(this.format(text.toString()));
     };
 
     public info(text: string): void {
-        return console.info(this.format(text));
+        return console.info(this.format(text.toString()));
     };
 
     public warn(text: string): void {
-        return console.warn(this.format(text));
+        return console.warn(this.format(text.toString()));
     };
 
     public error(text: string): void {
-        return console.error(this.format(text));
+        return console.error(this.format(text.toString()));
     };
 };
 
